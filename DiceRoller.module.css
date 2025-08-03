@@ -1,0 +1,37 @@
+.diceBox{
+    min-width: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.3rem;
+    font-size: 1.2rem;
+}
+.diceBox img{
+    border-radius: 1rem;
+    width: 100%;
+    cursor: pointer;
+}
+.resetBtn{
+    width: 100%;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.resetBtn:hover,.rulesBtn:hover{
+    box-shadow: 2px 2px 3px 1px rgb(8, 76, 177);
+    transition: 0.2s ease-in;
+}
+.rulesBtn{
+    color: white;
+    width: 100%;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    background-color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}

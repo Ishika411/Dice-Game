@@ -1,0 +1,37 @@
+.numberSelector{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    font-size: 1.1rem;
+    min-height: 4.5rem;
+}
+.numberSelector p{
+    font-weight: 600;
+}
+.numBox{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    gap:1.2rem;
+}
+.numBoxBtn{
+    width: 2.3rem;
+    height: 2.3rem;
+    font-size: 1.2rem;
+    border: 1px solid rgb(40, 40, 40);
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: white;
+}
+.numBoxBtn:hover{
+    box-shadow: 2px 2px 3px 1px rgb(8, 76, 177);
+    transition: 0.2s ease-in;
+}
+.selectedBtn{
+    background-color: black;
+    color: white;
+    /* box-shadow: 2px 2px 3px 1px rgb(8, 76, 177); */
+}
+.unselectedBtn{
+    background-color: white;
+}
