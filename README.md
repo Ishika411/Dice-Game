@@ -1,2 +1,2 @@
 # Dice-Game
-The Dice Game is a simple ReactJS app styled with CSS Modules. Players select a number (1–6) and roll a dice. If the result matches their selection, the score increases by that number. A reset button lets users restart the game anytime. 
+The Dice Game is a fun and interactive web app built using ReactJS and styled with CSS Modules for modular, component-scoped design. Players select a number between 1 and 6, then roll a virtual dice. If the rolled number matches the selected number, the score increases by that value. A reset button allows players to restart the game at any time. The app uses React's state management to handle user input, dice rolls, and score updates dynamically.
